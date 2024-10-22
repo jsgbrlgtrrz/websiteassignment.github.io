@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for Hansen Partners">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon-48x48.png" sizes="48x48" type="image/png">
+    <title>Services | Pleasanton Real Estate | Julie Hansen Partnership</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>SERVICES</h1>
+            <p>Discover the range of services we offer to help you achieve your goals.</p>
+        </div>
+    </section>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="not-available.html">MEET THE TEAM</a></li>
+            <li><a href="not-available.html">SEARCH FOR HOMES</a></li>
+            <li><a href="not-available.html">OUR COMMUNITIES</a></li>
+            <li><a href="not-available.html">HOME VALUATION</a></li>
+            <li><a href="https://hansenpartners.net/services">SERVICES</a></li>
+            <li><a href="not-available.html">HOMES ACROSS AMERICA</a></li>
+            <li><a href="not-available.html">TESTIMONIALS</a></li>
+            <li><a href="#" id="contactUsBtn">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Submit a Message</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message.."></textarea>
+
+                <div class="privacy-policy">
+                    <label class="privacy-label">
+                        <input type="checkbox" id="privacyPolicy" required>
+                        <span class="privacy-text">
+                            By submitting this form, you agree to our <a href="https://hansenpartners.net/terms-and-conditions" id="privacyPolicyLink">Privacy Policy</a> and consent to receiving marketing communications via automated calls, texts, and emails, which may use prerecorded voices. Consent is not a condition of purchasing services or products. You can opt out at any time by replying "stop" to texts or clicking the unsubscribe link in emails. Message and data rates may apply.
+                        </span>
+                    </label>
+                </div>
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
